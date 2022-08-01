@@ -1,0 +1,386 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  overflow: 0;
+  font-family: "Montserrat", sans-serif;
+}
+.nav-law {
+  /* border: 2px solid black; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-law .nav-mid {
+  /* border: 2px solid black; */
+  display: flex;
+}
+
+.nav-mid h4 {
+  /* border: 2px solid black; */
+  margin-right: 20px;
+  margin-top: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.nav-mid button {
+  margin-top: 10px;
+  margin-right: 30px;
+  width: 80%;
+  padding: 10px;
+  border-radius: 3px;
+  border: 1px solid #66c5ff;
+  color: #66c5ff;
+  background-color: transparent;
+  font-family: "Montserrat", sans-serif;
+}
+
+.nav-first img {
+  width: 70%;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.container2 {
+  height: 400px;
+  /* background-color: aqua; */
+  /* border: 2px solid black; */
+  display: flex;
+}
+
+.text {
+  float: left;
+  margin-left: 100px;
+  margin-top: 100px;
+}
+.text h1 {
+  width: 120%;
+  font-weight: bolder;
+}
+
+.my-btn button {
+  margin-top: 10px;
+  width: 50%;
+  padding: 5px;
+  background-color: #66c5ff;
+  border: 2px solid #66c5ff;
+  border-radius: 5px;
+  color: #ffffff;
+}
+.container2 .my-img img {
+  width: 50%;
+  float: right;
+  margin-top: 20px;
+  margin-right: 30px;
+}
+
+.container3 {
+  height: 500px;
+  /* background-color: blanchedalmond; */
+  display: flex;
+}
+
+.container3 .my-img2 img {
+  width: 50%;
+  margin-left: 100px;
+  margin-top: 100px;
+  float: left;
+}
+
+.text2 {
+  margin-top: 200px;
+  margin-right: 100px;
+  float: right;
+}
+
+.text2 h1 {
+  width: 120%;
+  font-weight: bolder;
+}
+
+.my-btn2 button {
+  margin-top: 20px;
+  width: 50%;
+  padding: 5px;
+  background-color: #66c5ff;
+  border: 2px solid #66c5ff;
+  color: #ffffff;
+  border-radius: 5px;
+}
+
+.container4 {
+  height: 100px;
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-around;
+  /* border: 2px solid black; */
+  margin-top: 100px;
+}
+
+.container4 .text4 {
+  width: 40%;
+  text-align: justify;
+}
+
+.container5 {
+  height: 250px;
+  /* border: 2px solid black; */
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.container5 .box1 .info img {
+  width: 20%;
+}
+
+.container5 .box1 {
+  width: 250px;
+  height: 250px;
+  /* background-color: red; */
+  margin-top: 50px;
+}
+
+.container5 .box1 p {
+  text-align: justify;
+  margin-top: 10px;
+}
+
+.container6 {
+  height: 700px;
+  background-color: #0692f1;
+  margin-top: 200px;
+}
+
+.container6 .my-txt {
+  text-align: center;
+  position: relative;
+  top: 40px;
+  color: #ffffff;
+}
+.container6 .my-box {
+  /* border: 2px solid black; */
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-around;
+  height: 500px;
+}
+
+.container6 .box1 {
+  width: 300px;
+  height: 500px;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+.benefits {
+  /* border: 2px solid black; */
+  margin-top: 60px;
+  font-size: 13px;
+  margin-left: 10px;
+}
+
+.benefits ::before {
+  content: "";
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  border-bottom: 1px solid #00d84a;
+  border-right: 1px solid #00d84a;
+  transform: rotate(45deg);
+  margin-right: 10px;
+}
+
+.benefits h4 {
+  margin-top: 20px;
+}
+
+.pack-info {
+  margin-left: 10px;
+}
+
+.amount {
+  /* border: 2px solid black; */
+  text-align: center;
+  margin-top: 80px;
+}
+
+.month {
+  /* border: 2px solid black; */
+  font-weight: 100;
+  color: #758283;
+}
+
+.amount h4 {
+  margin-top: 10px;
+}
+
+.amount button {
+  margin-top: 10px;
+}
+.cp1 {
+  border: 2px solid black;
+  width: 40%;
+  padding: 5px;
+  border-radius: 4px;
+  background-color: transparent;
+  border: 1px solid #0692f1;
+  color: #0692f1;
+  border-radius: 5px;
+}
+.container6 .my-box .box2 {
+  width: 300px;
+  height: 500px;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+.pack-info2 {
+  background-color: #242b2e;
+  color: #ffffff;
+  height: 15vh;
+}
+.pack-info2 h4 {
+  /* border: 2px solid red; */
+  margin-left: 10px;
+  position: relative;
+  top: 5px;
+}
+.pack-info2 p {
+  margin-left: 10px;
+  font-size: 13px;
+  position: relative;
+  top: 5px;
+  margin-top: 10px;
+}
+
+.cp2 {
+  border: 2px solid black;
+  width: 40%;
+  padding: 5px;
+  border-radius: 4px;
+  background-color: #0692f1;
+  border: 1px solid #0692f1;
+  color: #ffffff;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.container7 {
+  height: 300px;
+  /* background-color: red; */
+}
+
+.container7 .my-txt {
+  text-align: center;
+  position: relative;
+  top: 20px;
+}
+
+.container7 .my-box {
+  /* border: 2px solid black; */
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+.container7 .my-txt p {
+  margin-top: 10px;
+}
+
+.container7 .my-box .box1 {
+  width: 600px;
+  height: 200px;
+  background-color: #ffffff;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
+}
+.container7 .my-box .box1 p {
+  text-align: justify;
+  margin-top: 5px;
+  width: 100%;
+  font-size: 70%;
+}
+
+.container7 .my-box .circle {
+  height: 25px;
+  width: 25px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.container7 .my-box .author {
+  /* border: 2px solid black; */
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.container7 .my-box .cover {
+  /* border: 2px solid black; */
+  margin-top: 100px;
+}
+
+.amount2 {
+  /* border: 2px solid black; */
+  text-align: center;
+  margin-top: 60px;
+}
+
+.container8 {
+  height: 300px;
+  background-color: #0787f0;
+}
+
+.container8 .my-box {
+  display: flex;
+  justify-content: space-around;
+}
+
+.container8 .my-box .left-text {
+  width: 50%;
+  text-align: justify;
+  margin-top: 100px;
+}
+
+.container8 .my-box .left-text p {
+  margin-top: 10px;
+}
+.container8 .my-box .right-text button {
+  width: 110%;
+  margin-top: 100px;
+  padding: 5px;
+  border-radius: 3px;
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  font-weight: bolder;
+}
+
+.container9 {
+  height: 200px;
+  /* background-color: #242b2e; */
+}
+
+.container9 .first-row {
+  /* border: 2px solid red; */
+  display: inline-block;
+  width: 18%;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-bottom: 30px;
+}
+.container9 .second-row {
+  /* border: 2px solid red; */
+  display: inline-block;
+  width: 19%;
+}
+.container9 .my-box {
+  /* border: 2px solid blue; */
+  position: relative;
+  top: 100%;
+  width: 100%;
+}
+
+.container9 .my-box .second-row img{
+    /* border: 2px solid black; */
+    width: 20%;
+    margin-top: 10px;
+}
